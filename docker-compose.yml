@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  kalkulator:
+    build: .
+    container_name: flask-calculator
+    ports:
+      - "5000:5000"
